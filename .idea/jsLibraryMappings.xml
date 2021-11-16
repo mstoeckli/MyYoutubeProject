@@ -2,5 +2,6 @@
 <project version="4">
   <component name="JavaScriptLibraryMappings">
     <file url="PROJECT" libraries="{sapui5-rt-1.95.0}" />
+    <includedPredefinedLibrary name="Node.js Core" />
   </component>
 </project>

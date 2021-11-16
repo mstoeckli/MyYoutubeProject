@@ -1,0 +1,19 @@
+<mvc:View
+    xmlns="sap.m"
+    xmlns:mvc="sap.ui.core.mvc"
+    controllerName="YTP.webapp.controller.App">
+    <App id="YTP">
+        <Page
+            title="My Youtube Project Page"
+            showFooter="true"
+            floatingFooter="true">
+            <footer>
+                <Toolbar>
+                    <Button
+                        text="{i18n>save}"
+                        press="._onSave"/>
+                </Toolbar>
+            </footer>
+        </Page>
+    </App>
+</mvc:View>

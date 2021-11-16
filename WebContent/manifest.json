@@ -1,0 +1,55 @@
+{
+  "sap.app": {
+    "id": "YTP",
+    "type": "application",
+    "i18n": "webapp/i18n/i18n.properties",
+    "title": "{{appTitle}}",
+    "description": "{{appDescription}}",
+    "applicationVersion": {
+      "version": "1.0.0"
+    }
+  },
+  "sap.ui": {
+    "_version": "1.0.0",
+    "technology": "UI5",
+    "deviceTypes": {
+      "desktop": true
+    },
+    "supportedThemes": [
+      "sap_fiori_3"
+    ]
+  },
+  "sap.ui5": {
+    "_version": "1.0.0",
+    "handleValidation": true,
+    "rootView": {
+      "id": "YTP",
+      "viewName": "YTP.webapp.view.App",
+      "type": "XML"
+    },
+    "dependencies": {
+      "minUI5Version": "1.94.0",
+      "libs": {
+        "sap.ui.core":  {},
+        "sap.m": {}
+      }
+    },
+    "resources": {
+      "css": [{
+        "uri": "webapp/css/style.css"
+      }]
+    },
+    "contentDensities": {
+      "compact": true,
+      "cozy": true
+    },
+    "models": {
+      "i18n": {
+        "type": "sap.ui.model.resource.ResourceModel",
+        "settings": {
+          "bundleName": "YTP.webapp.i18n.i18n"
+        }
+      }
+    }
+  }
+}
